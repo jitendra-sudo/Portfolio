@@ -30,7 +30,7 @@ header {
 
     position: fixed;
     width: 100%;
-   
+    
     padding-top: 10px 20px;
  
 }
@@ -66,7 +66,6 @@ main {
     text-align: center;
     align-items: center;
     padding-top: 70px;
-    
 }
 
 
@@ -92,12 +91,16 @@ main {
 }
 
 .hero img {
-    width: 40%;
+    width: 54%;
     height: auto;
+    margin-top: 10px;
     border-radius: 10px;
-    
 }
 
+.logoM{
+   
+    padding-top: 30px;
+}
 /* ////////////////////////// */
 
 
@@ -142,8 +145,10 @@ main {
     text-align: center;
     padding-bottom: 40px;
     margin-top: 40px;
-  
 }
+
+
+
 .row{
     display: flex;
     flex-wrap: nowrap;
@@ -348,7 +353,7 @@ h3{
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     display: flex;
-    padding-top: 90px;
+    padding-top: 70px;
     /* text-align: center; */
   }
   
@@ -361,10 +366,7 @@ h3{
   .links-list {
     list-style: none;
     background-color: #192a43;
-    text-align: center;
-
-    width: 100%;
-
+   
   }
    
   
@@ -378,15 +380,18 @@ h3{
   }
   
   .links-list .linkt {
+    display: inline-block;
     color: #fff;
     width: 100%;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
     background-color: rgba(222, 210, 210, 0.1);
-    padding: 6px 60px;
+    padding: 6px 0px;
     border-radius: 8px;
-    border: 2px solid;
+    border: 3px solid;
+   text-align: center; 
+    box-sizing: border-box;
    
   }
   
@@ -427,7 +432,7 @@ h3{
 .typewrite {
     /* font-family: monospace;  */
     display: inline-block;
-    color: #b2eab2;
+    color: #f5ba4d;
     text-decoration: none;
   }
   
@@ -439,6 +444,7 @@ h3{
     font-weight: bold;
     padding: 11px 12px;
     border-radius: 6px;
+    
     font-size: medium;
     border: none;
     background-color: rgba(198, 183, 183, 0.2);
@@ -450,10 +456,10 @@ h3{
 
 .ResumeMenu{
     padding: 6px 50px;
-    color: white;
+    color: rgb(128, 235, 135);
     font-weight: bold;
     font-size: large;
-    border:2px solid white;
+    border:3px solid rgb(59, 221, 38);
     border-radius: 6px;
 }
 .ResumeMenu:hover{

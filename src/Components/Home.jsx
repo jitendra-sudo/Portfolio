@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Statistics from './Statistics';
 import Contact from './Contact';
+import Resume from './JitendraSaini-Resume.pdf'
 import './Home.css';
 
 
@@ -31,7 +32,7 @@ function DrawerMenu() {
         <li><a className="linkt" href="#projects">Projects</a></li>
         <li><a className="linkt" href="#statistics">Statistics</a></li>
         <li><a className="linkt" href="#contact">Contact</a></li>
-         <a  style={{border:'none'}} href="path/to/your/resume.pdf" download> <button className='ResumeMenu' >Resume</button> </a>
+         <a  style={{border:'none'}} href={Resume} download> <button className='ResumeMenu' >Resume</button> </a>
         </ul>
       </div>
     </div>
@@ -99,7 +100,7 @@ function Home() {
             <a className="navPage" href="#statistics">Statistics</a>
             <a className="navPage" href="#contact">Contact</a>
             
-            <a  style={{border:'none' , color:'transparent'}} href="path/to/your/resume.pdf" download> <button className='Resume' >Resume</button> </a>
+            <a  style={{border:'none' , color:'transparent'}} href={Resume}  download> <button className='Resume' >Resume</button> </a>
             </nav>
           ) : (
             <DrawerMenu />
@@ -121,7 +122,7 @@ function Home() {
               </a>
             </h1>
             <p>Full-Stack Developer passionate about building scalable web applications</p>
-            <div className="logo">
+            <div className="logoM">
               <img src={HomeImage} alt="Developer" />
             </div>
           </div>
