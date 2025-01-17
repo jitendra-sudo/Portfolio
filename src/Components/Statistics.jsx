@@ -6,7 +6,7 @@ function Statistics() {
     <>
     <div className="statistics">
       <h1>Git Statistic's</h1>
-      <div className="stats">
+      <div className="stats" >
       <img src={stats} alt='stats'/>
       </div>
       <div className="lan">

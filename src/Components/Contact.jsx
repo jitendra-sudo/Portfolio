@@ -38,6 +38,14 @@ function Contact() {
             <p>
               <img src={mail} alt="Mail" /> <span>stupidboysbusiness@gmail.com</span>
             </p>
+            <p>
+            <img className='aboutlogo' src='https://img.icons8.com/?size=100&id=85141&format=png&color=000000'></img>
+              <a className='aboutLink' href="https://www.linkedin.com/in/jitendra2705" target="_blank" >www.linkedin.com/in/jitendra2705</a>
+            </p>
+            <p>
+            <img className='aboutlogo' src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000'></img>
+              <a className='aboutLink' href="https://github.com/jitendra-sudo" target="_blank" >https://github.com/jitendra-sudo</a>
+            </p>
           </div>
 
           <form onSubmit={HandleSubmit}>

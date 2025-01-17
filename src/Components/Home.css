@@ -210,6 +210,14 @@ strong{
     text-align: center;
     padding: 60px;
 }
+
+
+
+.section img:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 247, 247, 0.35) 0px 5px 15px;
+}
+
 .lan{
     display: flex;
     justify-content: center;
@@ -226,12 +234,17 @@ strong{
 .stats img{
     width:80%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); 
+    transition: transform 0.3s ease;
 }
-
+.stats img:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 247, 247, 0.35) 0px 5px 15px;
+}
 .section img{
     width: 350px;
     border-radius: 0.5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); 
+    transition: transform 0.3s ease;
 }
 
 
@@ -470,6 +483,11 @@ h3{
 
 
 
+.aboutLink{
+   background-color: transparent;
+   color: white;
+   text-decoration: none;
+}
 
 
 
