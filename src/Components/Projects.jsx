@@ -12,7 +12,7 @@ function Projects() {
     <div className='repoLink'>
     <h2>Project 1 : OwnField</h2>
     <div className='repo'>
-    <a href="ownfield.netlify.app" target="_blank" ><img src='https://img.icons8.com/?size=100&id=B3YslypXlynV&format=png&color=000000' alt='Link'/></a>
+    <a href="https://ownfield.netlify.app" target="_blank" ><img src='https://img.icons8.com/?size=100&id=B3YslypXlynV&format=png&color=000000' alt='Link'/></a>
     <a href="https://github.com/jitendra-sudo/OwnField" target="_blank" ><img src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000' alt='Link'/></a>
     </div>
     </div>
