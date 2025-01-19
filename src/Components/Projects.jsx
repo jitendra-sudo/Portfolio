@@ -2,6 +2,9 @@ import React from 'react'
 import Project1 from './Project1.png'
 import Project2 from './Project2.png'
 import Project3 from './Project3.png'
+import Project4 from './Project4.png'
+import Project5 from './Project5.png'
+import Project6 from './Project6.png'
 import './Project.css'
 function Projects() {
   return (
@@ -22,10 +25,27 @@ function Projects() {
       <img src={Project3} alt='Project shot'/>
     </div>
     
-     <p> <title>About project</title></p>
+     {/* <p> <title>About project</title></p> */}
+    </div>
+    <div className="project">
+    <div className='repoLink'>
+
+    <h2>Project 2 : CalorieScan : Food Calorie Scanner</h2>
+    <div className='repo'>
+    <a href="https://caloriescan.netlify.app/" target="_blank" ><img src='https://img.icons8.com/?size=100&id=B3YslypXlynV&format=png&color=000000' alt='Link'/></a>
+    <a href="https://github.com/jitendra-sudo/Project4678/tree/main/CalorieScan" target="_blank" ><img src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000' alt='Link'/></a>
+    </div>
+    </div>
+    <div className='ProjectImg'>
+      <img src={Project4} alt='Project shot'/>
+      <img src={Project5} alt='Project shot'/>
+      <img src={Project6} alt='Project shot'/>
+    </div>
+    
+     {/* <p> <title>About project</title></p> */}
     </div>
   </div>
-</>
+</>     
   )
 }
 

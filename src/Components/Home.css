@@ -91,7 +91,7 @@ main {
 }
 
 .hero img {
-    width: 54%;
+    width: 45%;
     height: auto;
     margin-top: 10px;
     border-radius: 10px;
@@ -201,7 +201,6 @@ strong{
 .projects{
     text-align: center;
 }
-
 
 /* /////////////// */
 

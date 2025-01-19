@@ -113,11 +113,7 @@ function Home() {
         <main>
           <div className="hero">
             <h1 id="animatedText">
-              <a
-                href=""
-                className="typewrite"
-                data-period="2000"
-                data-type='[ "Hi, I am Jitendra Saini.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+              <a href=""  className="typewrite"  data-period="2000"  data-type='[ "Hi, I am Jitendra Saini.", "I am Creative.", "I Love to Develop." ]'>
                 <span className="wrap"></span>
               </a>
             </h1>
