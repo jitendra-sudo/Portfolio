@@ -239,12 +239,12 @@ strong{
 }
 .stats img{
     width:80%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); 
-    transition: transform 0.3s ease;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);  */
+    /* transition: transform 0.3s ease; */
 }
 .stats img:hover{
-    transform: scale(1.1);
-    box-shadow: rgba(250, 247, 247, 0.35) 0px 5px 15px;
+    /* transform: scale(1.1); */
+    /* box-shadow: rgba(250, 247, 247, 0.35) 0px 5px 15px; */
 }
 .section img{
     width: 350px;
