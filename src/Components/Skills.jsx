@@ -15,7 +15,7 @@ import Ts from './Ts.png'
 function Skills() {
   return (
     <>
-      <div className="skills">
+      <div className="skills" id='skilling'>
         <h1>Technical Skills & Tools</h1>
         <div className="skill-logos">
         <div className="skill">

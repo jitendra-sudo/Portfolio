@@ -25,7 +25,7 @@ function Contact() {
 
   return (
     <>
-      <div className="contact">
+      <div className="contact"  id='contacts'>
         <h1>Contact Me</h1>
         <div className="listContact">
           <div className="list">

@@ -9,7 +9,7 @@ import './Project.css'
 function Projects() {
   return (
 <>
-  <div className="projects">
+  <div className="projects"   id='projected'>
     <h1>Projects</h1>
     <div className="project">
     <div className='repoLink'>

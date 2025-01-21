@@ -4,7 +4,7 @@ import language from './language.png'
 function Statistics() {
   return (
     <>
-    <div className="statistics">
+    <div className="statistics"   id='github'>
       <h1>Git Statistic's</h1>
       <div className="stats" >
       <img src= 'https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg' alt='stats'/>

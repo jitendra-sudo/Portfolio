@@ -28,10 +28,10 @@ function DrawerMenu() {
         <li><a className="linkt" href="#">Home</a></li>
         <li><a className="linkt" href="#about">About</a></li>
         <li><a className="linkt" href="#education">Education</a></li>
-        <li><a className="linkt" href="#skills">Skills</a></li>
-        <li><a className="linkt" href="#projects">Projects</a></li>
-        <li><a className="linkt" href="#statistics">Statistics</a></li>
-        <li><a className="linkt" href="#contact">Contact</a></li>
+        <li><a className="linkt" href="#skilling">Skills</a></li>
+        <li><a className="linkt" href="#projected">Projects</a></li>
+        <li><a className="linkt" href="#github">Statistics</a></li>
+        <li><a className="linkt" href="#contacts">Contact</a></li>
          <a  style={{border:'none'}} href={Resume} download> <button className='ResumeMenu' >Resume</button> </a>
         </ul>
       </div>
@@ -94,11 +94,11 @@ function Home() {
             <nav id="nav-menu">
             <a className="navPage" href="#">Home</a>
             <a className="navPage" href="#about">About</a>
-            <a className="navPage" href="#edu">Education</a>
-            <a className="navPage" href="#skills">Skills</a>
-            <a className="navPage" href="#projects">Projects</a>
-            <a className="navPage" href="#statistics">Statistics</a>
-            <a className="navPage" href="#contact">Contact</a>
+            <a className="navPage" href="#education">Education</a>
+            <a className="navPage" href="#skilling">Skills</a>
+            <a className="navPage" href="#projected">Projects</a>
+            <a className="navPage" href="#github">Statistics</a>
+            <a className="navPage" href="#contacts">Contact</a>
             
             <a  style={{border:'none' , color:'transparent'}} href={Resume}  download> <button className='Resume' >Resume</button> </a>
             </nav>

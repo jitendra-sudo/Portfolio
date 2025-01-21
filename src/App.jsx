@@ -19,7 +19,7 @@ export function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/statistics" element={<Statistics />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/edu" element={<Education />} />
+          <Route path="/education" element={<Education />} />
         </Routes>
       </BrowserRouter>
     </>
