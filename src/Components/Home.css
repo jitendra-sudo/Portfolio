@@ -202,6 +202,13 @@ strong{
     text-align: center;
 }
 
+.ProjectImg img{
+    width: 380px;
+    height: auto;
+}
+
+
+
 /* /////////////// */
 
 
@@ -270,8 +277,8 @@ strong{
 } 
 
 .list {
-    background-color: #192a43;
-    
+    background-color: transparent;
+    padding-left: 60px;
 }
 .list p{
     display: flex;
@@ -291,7 +298,7 @@ background-color: #192a43;
 }
 
 form{
-    background-color: #192a43;
+    background-color: transparent;
     width: 30%;
 }
  
@@ -680,31 +687,99 @@ h3{
     }
 }
 
-@media screen and (max-width: 600px){
-    .skill-logos{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-        padding: 0px 150px;
-       
-    } 
-        
-    .listContact form{ 
-       margin-right: 50px;
-    }
-    .listContact .list{ 
-       margin-right: 100px;
-    }
+@media screen and (max-width: 588px){
+  .hero #animatedText{
+    font-size: 25px;
+  }
+
+  .hero p{
+    font-size: 18px;
+  }
+  
+.aboutSec #aboutSection p{
+      text-align: center;
+  }
+  
+  .skills h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+  }
+
+  .skill-logos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
    
-    .listContact{
-        border-radius: 180px 0px 0px 0px ;
-        width: 100%;
-        background-color: #192a43;
-        height: auto;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: right ;
-        /* align-items:; */
-        padding:60px 120px;
-    } 
+  }
+ 
+  .repoLink h2{
+    font-size: x-large;
+  }
+
+  .repoLink .repo{
+    display: flex;
+  }
+
+.ProjectImg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ProjectImg img{
+      width: 300px;
+      height: auto;
+  }
+
+  .stats{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+ .stats img{
+    width: 340px;
+ }
+ .lan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.mid{
+    padding: 0px;
+   
+}
+
+.listContact{
+    border-radius: 150px 0px 0px 0px ;
+   padding: 0px;
+  
+    align-items:center;
+
+}
+form{
+    background: transparent;
+    padding-top: 40px;
+}
+.list p{
+     font-size: 12px;
+     
+}
+.list img{
+    width: 20px;
+}
+.list{
+    padding-bottom: 30px;
+}
+
+
+footer p{
+font-size: 10px;
+}
+
+
+
+
+
+
 }

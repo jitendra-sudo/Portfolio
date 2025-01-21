@@ -8,7 +8,7 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [subject, setSubject] = useState(''); // Added state for subject
+  const [subject, setSubject] = useState(''); 
 
   const HandleSubmit = async (e) => {
     e.preventDefault();

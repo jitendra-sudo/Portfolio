@@ -94,7 +94,7 @@ function Home() {
             <nav id="nav-menu">
             <a className="navPage" href="#">Home</a>
             <a className="navPage" href="#about">About</a>
-            <a className="navPage" href="#education">Education</a>
+            <a className="navPage" href="#edu">Education</a>
             <a className="navPage" href="#skills">Skills</a>
             <a className="navPage" href="#projects">Projects</a>
             <a className="navPage" href="#statistics">Statistics</a>

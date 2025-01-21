@@ -7,9 +7,10 @@ function Statistics() {
     <div className="statistics">
       <h1>Git Statistic's</h1>
       <div className="stats" >
-      <img src={stats} alt='stats'/>
+      <img src= 'https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg' alt='stats'/>
       </div>
       <div className="lan">
+      
       <div className='section'>
         
           <img src="https://github-readme-stats.vercel.app/api?username=jitendra-sudo&show_icons=true&theme=radical" alt='language'/>
