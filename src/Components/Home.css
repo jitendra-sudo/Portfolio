@@ -738,7 +738,11 @@ h3{
     padding-bottom: 40px;
   }
  .stats img{
-    width: 340px;
+    width: 300px;
+ }
+
+.section img{
+    width: 300px;
  }
  .lan{
     display: flex;

@@ -53,7 +53,7 @@ function Contact() {
             <p><input className='btn' type="text"  id="name" value={name}  placeholder="Name" onChange={(e) => setName(e.target.value)} required/></p>
             <p> <input className='btn' type="email"  id="email"  value={email} placeholder="Email"  onChange={(e) => setEmail(e.target.value)} required/></p>
            <p><input className='btn' type="text"  id="subject"  value={subject} placeholder="Subject" onChange={(e) => setSubject(e.target.value)}  required/></p>
-           <p><textarea className='btn' id="message" value={message}  placeholder="Message" onChange={(e) => setMessage(e.target.value)} required/></p>
+           <p><textarea className='btn' id="message" value={message}  placeholder="Message" onChange={(e) => setMessage(e.target.value)} required  style={{resize:'vertical'}} rows="3" /></p>
             <p><button className='btn' type="submit">Send Message</button></p>
           </form>
         </div>
