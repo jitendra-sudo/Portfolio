@@ -30,13 +30,13 @@ function Contact() {
         <div className="listContact">
           <div className="list">
             <p>
-              <img src={phone} alt="Phone" /> <span>+91 7023187924</span>
+              <img src={phone} alt="Phone" /> <a className='aboutLink' href="tel:+917023187924" >+91 7023187924</a>
             </p>
             <p>
               <img src={place} alt="Place" /> <span>Bansur, Alwar, Rajasthan</span>
             </p>
             <p>
-              <img src={mail} alt="Mail" /> <span>stupidboysbusiness@gmail.com</span>
+              <img src={mail} alt="Mail" /> <a className='aboutLink'  href="https://mail.google.com/mail/?view=cm&fs=1&to=stupidboysbusiness@gmail.com&su=Subject&body=Message"  target="_blank" >stupidboysbusiness@gmail.com</a>
             </p>
             <p>
             <img className='aboutlogo' src='https://img.icons8.com/?size=100&id=85141&format=png&color=000000'></img>
