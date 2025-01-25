@@ -32,7 +32,7 @@ function DrawerMenu() {
         <li><a className="linkt" href="#projected">Projects</a></li>
         <li><a className="linkt" href="#github">Statistics</a></li>
         <li><a className="linkt" href="#contacts">Contact</a></li>
-         <a  style={{border:'none'}} href={Resume} download> <button className='ResumeMenu' >Resume</button> </a>
+        <a href="https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link" download  target="_blank"  style={{ border: 'none' }}> <button className="ResumeMenu">Resume</button></a>
         </ul>
       </div>
     </div>
@@ -100,7 +100,8 @@ function Home() {
             <a className="navPage" href="#github">Statistics</a>
             <a className="navPage" href="#contacts">Contact</a>
             
-            <a  style={{border:'none' , color:'transparent'}} href={Resume}  download> <button className='Resume' >Resume</button> </a>
+            <a  style={{border:'none' , color:'transparent'}} href="https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link" download  target="_blank"> <button className='Resume' >Resume</button> </a>
+          
             </nav>
           ) : (
             <DrawerMenu />

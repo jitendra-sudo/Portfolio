@@ -13,9 +13,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
- 
 }
+
 .ProjectImg img{
 width: 500px;
 height: 270px;
@@ -23,11 +22,12 @@ height: 270px;
  transition: transform 0.3s ease;
  border-radius: 8px;
 }
+
 .ProjectImg img:hover {
     transform: scale(1.1); 
     box-shadow: rgba(250, 247, 247, 0.35) 0px 5px 15px;
-
   }
+  
 
 .repoLink{
     display: flex;
@@ -55,3 +55,22 @@ height: 270px;
     background: transparent;
 }
 
+.description{
+    margin: 30px  65px;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;
+}
+
+ .descSection{
+    padding-top: 20px;
+    font-size: 22px;
+    color: #2874a6;
+    font-weight: bold;
+}
+.description{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bold;
+}

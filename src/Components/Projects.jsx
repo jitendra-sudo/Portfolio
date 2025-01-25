@@ -24,12 +24,15 @@ function Projects() {
       <img src={Project2} alt='Project shot'/>
       <img src={Project3} alt='Project shot'/>
     </div>
-    
-     {/* <p> <title>About project</title></p> */}
+
+    <h4 className='descSection'>Description:</h4>
+    <p className='description'>OwnField is designed to bridge the gap between farmers and consumers by offering a direct, convenient way for consumers to purchase fresh produce straight from the fields  </p>
+   
     </div>
+
+
     <div className="project">
     <div className='repoLink'>
-
     <h2>Project 2 : CalorieScan : Food Calorie Scanner</h2>
     <div className='repo'>
     <a href="https://caloriescan.netlify.app/" target="_blank" ><img src='https://img.icons8.com/?size=100&id=B3YslypXlynV&format=png&color=000000' alt='Link'/></a>
@@ -41,8 +44,10 @@ function Projects() {
       <img src={Project5} alt='Project shot'/>
       <img src={Project6} alt='Project shot'/>
     </div>
-    
-     {/* <p> <title>About project</title></p> */}
+   
+    <h4 className='descSection'>Description:</h4>
+    <p className='description'>A web application that allows users to scan QR codes or select dishes from a list to view detailed information about the calories and nutrition of food items. </p>
+
     </div>
   </div>
 </>     

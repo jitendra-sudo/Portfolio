@@ -364,7 +364,7 @@ h3{
     position: fixed;
     top: 0;
     right: -300px; 
-    width: 250px;
+    width: 240px;
     height: 100%;
     background-color: #192a43;
     color: #fff;
@@ -390,7 +390,7 @@ h3{
    
   
   .links-list li {
-    margin: 30px 0px;
+    margin: 20px 0px;
     width: 100%;
     background-color: #192a43;
     border-radius: 8px;
@@ -408,14 +408,15 @@ h3{
     background-color: rgba(222, 210, 210, 0.1);
     padding: 6px 0px;
     border-radius: 8px;
-    border: 3px solid;
-   text-align: center; 
+    /* border: 2px solid; */
+    font-weight: bold;
+    text-align: center; 
     box-sizing: border-box;
    
   }
   
-  .links-list a:hover {
-    color: #444a7c;
+  .links-list .linkt:hover {
+    background-color: rgba(222, 210, 210, 0.2);
   }
   
  
@@ -475,14 +476,15 @@ h3{
 
 .ResumeMenu{
     padding: 6px 50px;
-    color: rgb(128, 235, 135);
+    color: white;
     font-weight: bold;
     font-size: large;
-    border:3px solid rgb(59, 221, 38);
     border-radius: 6px;
+    background:rgb(34, 129, 21) ;
+    border: none;
 }
 .ResumeMenu:hover{
-    background-color: rgba(86, 236, 27, 0.8);
+    background-color: rgba(70, 184, 26, 0.8);
 }
 
 
