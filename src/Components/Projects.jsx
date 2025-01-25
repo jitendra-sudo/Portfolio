@@ -46,6 +46,7 @@ function Projects() {
     </div>
    
     <h4 className='descSection'>Description:</h4>
+   
     <p className='description'>A web application that allows users to scan QR codes or select dishes from a list to view detailed information about the calories and nutrition of food items. </p>
 
     </div>

@@ -55,22 +55,19 @@ height: 270px;
     background: transparent;
 }
 
-.description{
-    margin: 30px  65px;
-    align-items: start;
-    display: flex;
-    flex-wrap: wrap;
-    align-items:start;
-}
+
 
  .descSection{
     padding-top: 20px;
     font-size: 22px;
     color: #2874a6;
     font-weight: bold;
+    text-align: center;
 }
 .description{
+    text-align: center;
     margin-top: 0px;
     padding-top: 0px;
     font-weight: bold;
+    padding: 0px 60px;
 }
