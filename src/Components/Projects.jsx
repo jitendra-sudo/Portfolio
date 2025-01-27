@@ -36,7 +36,7 @@ function Projects() {
     <h2>Project 2 : CalorieScan : Food Calorie Scanner</h2>
     <div className='repo'>
     <a href="https://caloriescan.netlify.app/" target="_blank" ><img src='https://img.icons8.com/?size=100&id=B3YslypXlynV&format=png&color=000000' alt='Link'/></a>
-    <a href="https://github.com/jitendra-sudo/Project4678/tree/main/CalorieScan" target="_blank" ><img src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000' alt='Link'/></a>
+    <a href="https://github.com/jitendra-sudo/CalorieScan/tree/main" target="_blank" ><img src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000' alt='Link'/></a>
     </div>
     </div>
     <div className='ProjectImg'>

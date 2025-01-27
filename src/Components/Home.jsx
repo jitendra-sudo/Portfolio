@@ -7,7 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Statistics from './Statistics';
 import Contact from './Contact';
-import Resume from './JitendraSaini-Resume.pdf'
+import Resume from './Jitendra-Saini-Resume.pdf'
 import './Home.css';
 
 
@@ -17,6 +17,11 @@ function DrawerMenu() {
   const toggleSlider = () => {
     setIsOpen(!isOpen);
   };
+
+  const HandleResume1 = () =>{
+    window.open('https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link', '_blank')
+    window.location.href = 'https://drive.google.com/uc?export=download&id=1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d'
+  }
 
   return (
     <div>
@@ -32,7 +37,7 @@ function DrawerMenu() {
         <li><a className="linkt" href="#projected">Projects</a></li>
         <li><a className="linkt" href="#github">Statistics</a></li>
         <li><a className="linkt" href="#contacts">Contact</a></li>
-        <a href="https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link" download  target="_blank"  style={{ border: 'none' }}> <button className="ResumeMenu">Resume</button></a>
+       <button onClick={HandleResume1} className="ResumeMenu">Resume</button>
         </ul>
       </div>
     </div>
@@ -82,6 +87,13 @@ function Home() {
     }
   }, []);
 
+
+  
+  const HandleResume = () =>{
+    window.open('https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link', '_blank')
+    window.location.href = 'https://drive.google.com/uc?export=download&id=1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d'
+  }
+
   return (
     <>
       <div id="container">
@@ -100,7 +112,7 @@ function Home() {
             <a className="navPage" href="#github">Statistics</a>
             <a className="navPage" href="#contacts">Contact</a>
             
-            <a  style={{border:'none' , color:'transparent'}} href="https://drive.google.com/file/d/1bg3qyXHQtpoWq4lXZgsC8NRHMkoLCi5d/view?usp=drive_link" download  target="_blank"> <button className='Resume' >Resume</button> </a>
+             <button onClick={HandleResume} className='Resume' >Resume</button> 
           
             </nav>
           ) : (

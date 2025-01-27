@@ -169,8 +169,8 @@ strong{
     padding-bottom: 70px;
 }
 .skill-logos{
-    display: grid;
-    grid-template-columns: repeat(6 , 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 0px 250px;
    
@@ -706,14 +706,13 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px 30px;
+    margin: 0px 30px;/
   }
 
   .skill-logos{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-   
+    justify-content: center;
   }
  
   .repoLink h2{
