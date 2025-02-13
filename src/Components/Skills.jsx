@@ -16,6 +16,7 @@ function Skills() {
   return (
     <>
       <div className="skills" id='skilling'>
+      <div className='skillcss' >
         <h1>Technical Skills & Tools</h1>
         <div className="skill-logos">
         <div className="skill">
@@ -42,7 +43,7 @@ function Skills() {
           <img src={ReactLogo} alt="React" />
           <p>React</p>
         </div>
-        <div className="skill">
+        <div className="skill  mongobdvase">
           <img className='mongoDb' src={MongoDBLogo} alt="MongoDB" />
           <p>MongoDB</p>
         </div>
@@ -65,6 +66,7 @@ function Skills() {
         <div className="skill">
           <img src={Ts} alt="TypeScript" />
           <p>TypeScript</p>
+        </div>
         </div>
         </div>
       </div>

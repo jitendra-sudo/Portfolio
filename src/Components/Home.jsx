@@ -130,11 +130,14 @@ function Home() {
                 <span className="wrap"></span>
               </a>
             </h1>
-            <p>Full-Stack Developer passionate about building scalable web applications</p>
-            <div className="logoM">
+            <p style={{color:''}}>Full-Stack Developer passionate about building scalable web applications</p>
+           
+
+            <button onClick={HandleResume} className='Resume' >Resume</button> 
+          </div>
+          <div className="logoM">
               <img src={HomeImage} alt="Developer" />
             </div>
-          </div>
         </main>
       </div>
 

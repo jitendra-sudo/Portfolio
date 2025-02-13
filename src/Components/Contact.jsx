@@ -17,15 +17,20 @@ function Contact() {
     try {
       const res = await axios.post(`https://portfolio-8458c-default-rtdb.firebaseio.com/user.json`, data);
       console.log(res.data);
+      setName('')
+      setMessage('')
+      setSubject('')
+      setEmail('')
       alert('Message sent successfully')
     } catch (error) {
-      console.error("Error in sending message:", error); // Improved error handling
+      console.error("Error in sending message:", error); 
     }
   };
 
   return (
     <>
       <div className="contact"  id='contacts'>
+      <div className='contactcss' >
         <h1>Contact Me</h1>
         <div className="listContact">
           <div className="list">
@@ -56,6 +61,7 @@ function Contact() {
            <p><textarea className='btn' id="message" value={message}  placeholder="Message" onChange={(e) => setMessage(e.target.value)} required  style={{resize:'vertical'}} rows="3" /></p>
             <p><button className='btn' type="submit">Send Message</button></p>
           </form>
+        </div>
         </div>
       </div>
 
