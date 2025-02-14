@@ -66,8 +66,8 @@ header {
 main {
     display: flex;
     text-align: center;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 88px;
     border-radius: 8px;
     margin-left: 40px;
@@ -82,12 +82,14 @@ main {
 
 
 .hero {
-    margin: 0 auto;
+    /* border: 2px solid; */
+
+    /* margin: 0 auto; */
     padding-top: 100px;
     /* border-radius: 10px; */
     /* max-width: 800px; */
     /* border: 2px solid; */
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
 }
 
 .hero h1 {
@@ -109,7 +111,7 @@ main {
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 60px;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 .logoM img {
@@ -121,9 +123,9 @@ main {
 }
 
 .logoM{
-   
+   /* border: 2px solid; */
     padding-top: 80px;
-    margin-right: 60px;
+    /* margin-right: 60px; */
    
    
 }
@@ -171,7 +173,7 @@ main {
     justify-content: center;
     align-items: center;
     /* border: 2px solid; */
-    /* padding: 0px 70px; */
+    padding: 0px 70px;
     /* background-color: #273648;  */
     margin-bottom: 60px;
 }
@@ -179,12 +181,18 @@ main {
 
 
 #aboutSection p{
-    /* text-align: left; */
+        /* border: 2px solid; */
+
+    text-align: center;
     padding-left: 50px;
     font-size: large;
     font-weight: bold;
     color: #201d1d;
 }
+
+
+/* //////////// */
+
 
 .Edu{
     text-align: center;
@@ -208,10 +216,12 @@ main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
 }
 .courese{
     text-align: left;
+    /* border: 2px solid; */
     padding: 30px;
 }
 strong{
@@ -859,23 +869,63 @@ h3{
 }
 
 @media screen and (max-width: 588px){
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
   .hero #animatedText{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .hero p{
-    font-size: 18px;
+    font-size: 14px;
+   
   }
   
 .aboutSec #aboutSection p{
       text-align: center;
+      /* border: 2px solid; */
+       font-size: 14px;
+  }
+
+  .aboutcss{
+    padding: 60px  0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.Educss h1{
+    font-size: 20px;
+}
+
+  .Educss{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px  0px;
+  }
+
+    .courese{
+        padding: 0;
+        margin: 10px;
+        text-align: left;
+    } 
+     .courese p{
+        text-align: center;
+     }
+      .courese strong{
+        text-align: left;
+      }
+  #about h1{
+    font-size: 20px;
   }
   
   .skills h1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px 30px;/
+    margin: 0px 30px;
+    font-size: 20px;
   }
 
   .skill-logos{
@@ -901,15 +951,26 @@ h3{
 .ProjectImg img{
       width: 300px;
       height: auto;
+      /* border: 2px solid; */
   }
 
+  #aboutSection p{
+    padding-left: 0px;
+     font-size: 12px;
+  }
+
+
+  #aboutSection img{
+        width:180px ;
+  }
   .stats{
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
   }
  .stats img{
-    width: 300px;
+    width: 180px;
+    
  }
 
 .section img{
@@ -953,8 +1014,82 @@ font-size: 10px;
 }
 
 
+.skillcss{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projectcss{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projectcss h1{
+    font-size: 20px;
+}
+.project h2{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.ProjectImg img{
+    width: 180px;
+}
+
+.repoLink{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 10px;
+
+}
+
+.descrip h4{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.descrip p{
+    font-size: 10px;
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.description{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.statisticscss{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.statisticscss h1{
+    font-size: 20px;
+}
+
+.section img{
+    width: 180px;
+}
+ 
 
 
+.contactcss{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+form h3{
+    font-size: 14px;
+}
+
+
+.contactcss h1{
+    font-size: 20px;
+}
+
+.list p{
+    /* border: 2px solid; */
+    font-size: 10px;
+}
 
 }

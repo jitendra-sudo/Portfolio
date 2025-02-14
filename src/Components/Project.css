@@ -64,7 +64,7 @@ width: 350px;
     /* border: 2px solid rgb(0, 0, 0); */
     background: rgba(74, 238, 33, 0.486);
    display: inline-block;
-   margin: 4px;
+   /* margin: 4px; */
 }
 .repo a:hover{
     background: rgba(74, 238, 33, 0.686);
