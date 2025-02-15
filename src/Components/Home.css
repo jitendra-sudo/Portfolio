@@ -3,6 +3,21 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     /* color: #ffffff;  */
+    background: linear-gradient(to right, #ffd1dc, #ffeb99);
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* *{
@@ -236,6 +251,7 @@ strong{
     /* padding-bottom: 70px; */
     /* height: 600px; */
     border: 2px solid transparent;
+    
 }
 
 .skillcss{
@@ -786,6 +802,12 @@ h3{
         align-items: center;
     }
  
+    .skills{
+        margin-top: 70px;
+    }
+
+
+
     .courese{
         text-align:center;
         padding: 30px;
@@ -806,7 +828,7 @@ h3{
     }
 
     .skills h1{
-        padding-bottom:60px;
+        padding-bottom:10px;
      
      }
      .skill img{
@@ -823,7 +845,7 @@ h3{
   
     .skillcss{
         padding: 30px  0px;
-        margin-top: 250px;
+        /* margin-top: 100px; */
     }
 
     .lan{
@@ -865,6 +887,10 @@ h3{
         color: #181616;
        padding: 10px 30px;
        flex-wrap: nowrap;
+    }
+
+    .description{
+        margin: 0px 10px;
     }
 }
 
